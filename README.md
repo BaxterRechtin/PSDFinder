@@ -15,9 +15,9 @@ This script streamlines the process by accepting multiple addresses as input via
   - Utilizes Selenium to interact with the web interface.
   - Identifies the appropriate HTML elements for each address field and populates them.
   - Triggers the search function on the web interface.
-  - Captures the resulting HTML table containing the withholding information.
+  - Captures the resulting HTML table containing the withholding information with BeautifulSoup.
 - **Output:** 
-  - Parses the results using pandas.
+  - Parses the results.
   - Writes the processed data to a file named `results.csv`.
 
 This approach simplifies the process of retrieving bulk tax withholding data, making it more efficient for both ERP integration and manual payroll processing tasks.
